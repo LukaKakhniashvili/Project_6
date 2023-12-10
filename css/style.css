@@ -3,6 +3,7 @@
     margin: auto;
 }
 
+/* HEADER */
 header {
     /* background-color: brown; */
     padding: 52px 98px;
@@ -51,6 +52,8 @@ header {
     color: #758BFD;
 }
 
+
+/* SECTION */
 section {
     background: #DDEAF8;
     padding: 115px 98px;
@@ -59,6 +62,7 @@ section {
 .articles {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     row-gap: 51px;
     column-gap: 22px;
 }
@@ -79,13 +83,78 @@ section {
     display: flex;
     width: 400px;
     padding: 33px 30px;
+    cursor: pointer;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap: 33px;
 }
+
 .article_para {
     color: #133B3A;
     font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
+}
+
+
+/* FOOTER */
+footer {
+    background: #758BFD;
+    padding: 75px 98px 105px 98px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_h2 {
+    font-family: 'Gothic A1', sans-serif;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+    margin-bottom: 20px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fa-brands {
+    color: #fff;
+    font-size: 25px;
+
+}
+
+/* .social_middle {
+    margin-inline: 15px;
+} */
+
+.footer_logo {
+    background: #FFF;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.visa_logo {
+    padding: 13px 5px 15px 2px;
+}
+
+.master_logo {
+    padding: 1px 5px 5px 7px;
+}
+
+.cash_logo {
+    padding: 4px 4px 4px 0;
+}
+
+.installments_logo {
+    padding: 0 6px 0 7px;
+}
+
+.footer_payment {
+    display: flex;
+    column-gap: 11px;
+    row-gap: 8px;
+    flex-wrap: wrap;
 }
