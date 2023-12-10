@@ -1,0 +1,62 @@
+.header_container {
+    width: min(100%, 1440px);
+    margin: auto;
+}
+
+header {
+    /* background-color: brown; */
+    padding: 52px 98px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.header_ul {
+    display: flex;
+    column-gap: 50px;
+    flex-wrap: wrap;
+}
+
+.header_li,
+.header_a {
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.active {
+    color: #27187F;
+}
+
+.no_active {
+    color: #758BFD;
+}
+
+.search_container {
+    width: 222px;
+    border-radius: 10px;
+    border: 3px solid #758BFD;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 12px 8px;
+}
+
+.search_icon {
+    width: 32px;
+    height: 32px;
+}
+
+section {
+    width: min(100%, 1440px);
+    margin: auto;
+    background: #DDEAF8;
+    display: flex;
+    padding: 115px 98px;
+    justify-content: center;
+    align-items: center;
+    height: 1052px;
+
+}
