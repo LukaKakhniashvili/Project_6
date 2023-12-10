@@ -1,4 +1,4 @@
-.header_container {
+.container {
     width: min(100%, 1440px);
     margin: auto;
 }
@@ -15,16 +15,17 @@ header {
 .header_ul {
     display: flex;
     column-gap: 50px;
+    row-gap: 20px;
     flex-wrap: wrap;
 }
 
 .header_li,
 .header_a {
-    font-family: Ubuntu;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .active {
@@ -42,21 +43,49 @@ header {
     display: flex;
     flex-direction: row-reverse;
     padding: 12px 8px;
+
 }
 
-.search_icon {
-    width: 32px;
-    height: 32px;
+.fa-magnifying-glass {
+    font-size: 20px;
+    color: #758BFD;
 }
 
 section {
-    width: min(100%, 1440px);
-    margin: auto;
     background: #DDEAF8;
-    display: flex;
     padding: 115px 98px;
-    justify-content: center;
-    align-items: center;
-    height: 1052px;
+}
 
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 51px;
+    column-gap: 22px;
+}
+
+.section_h2 {
+    color: #27187F;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 68px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.section_article {
+    border-radius: 10px;
+    background: #FFF;
+    display: flex;
+    width: 400px;
+    padding: 33px 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 33px;
+}
+.article_para {
+    color: #133B3A;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
 }
