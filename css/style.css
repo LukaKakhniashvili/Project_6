@@ -90,6 +90,11 @@ section {
     gap: 33px;
 }
 
+.section_image {
+    width: 100%;
+    height: 188px;
+}
+
 .article_para {
     color: #133B3A;
     font-family: 'Ubuntu', sans-serif;
